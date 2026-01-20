@@ -1,0 +1,10 @@
+#Program 4: Program to calculate sum and average of first n numbers
+
+n=int(input("Enter a number:"))
+
+#Calculate total sum of first n numbers
+total_sum=sum(range(1,n+1))
+
+#Print the results
+print("Sum: ",total_sum)
+print("Average: ",total_sum/n)
